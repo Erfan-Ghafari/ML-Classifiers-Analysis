@@ -43,7 +43,7 @@ The goal is not merely to achieve high accuracy, but to critically analyze model
 
 #### 1. Decision Boundaries (Bank Note Dataset)
 <p align="center">
-  <img src="images/decision_boundary.png" width="600" title="Decision Boundary">
+  <img src="images/decision_boundry.png" width="600" title="Decision Boundary">
   <br>
   <em>Decision Boundaries showing how models separate non-linear data</em>
 </p>
