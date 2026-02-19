@@ -42,16 +42,17 @@ The goal is not merely to achieve high accuracy, but to critically analyze model
 ### 📊 Experimental Results & Visualizations
 
 #### 1. Decision Boundaries (Bank Note Dataset)
-![Decision Boundaries](images/decision_boundary.png)
+![Decision Boundaries](images/decision_boundry.png)
 *Figure 1: Comparison of model boundaries on non-linear data.*
 
 #### 2. Noise Robustness Analysis
-![Noise Robustness](images/noise_analysis.png)
+![Noise Robustness](images/model_stability_analysis.png)
 *Figure 2: Evaluating kNN vs. SVM performance under controlled noise.*
 
 #### 3. MLP Learning Curves
-![Learning Curves](images/learning_curves.png)
+![Learning Curves](images/Learning_curves.png)
 *Figure 3: Training and validation loss/accuracy over epochs.*
+
 
 
 
