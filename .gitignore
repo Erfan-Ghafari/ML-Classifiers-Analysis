@@ -1,0 +1,7 @@
+# .gitignore
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.DS_Store
+# Uncomment the next line if your data files are too large for GitHub (>100MB)
+# data/
