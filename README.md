@@ -39,6 +39,8 @@ The goal is not merely to achieve high accuracy, but to critically analyze model
 - **Dimensionality Reduction:** Evaluating the trade-off between retained variance and computational efficiency using PCA.
 
 
+
+
 ### 📊 Experimental Results & Visualizations
 
 #### 1. Decision Boundaries (Bank Note Dataset)
@@ -48,14 +50,22 @@ The goal is not merely to achieve high accuracy, but to critically analyze model
   <em>Decision Boundaries showing how models separate non-linear data</em>
 </p>
 
-#### 2. Noise Robustness Analysis
-![Noise Robustness](images/model_stability_analysis.png)
 
-*Figure 2: Evaluating kNN vs. SVM performance under controlled noise.*
+#### 2. Noise Robustness Analysis
+<p align="center">
+  <img src="images/model_stability_analysis.png" width="600" alt="Noise Robustness">
+  <br>
+  <em>Figure 2: Evaluating kNN vs. SVM performance under controlled noise.</em>
+</p>
+
 
 #### 3. MLP Learning Curves
-![Learning Curves](images/Learning_curves.png)
-*Figure 3: Training and validation loss/accuracy over epochs.*
+<p align="center">
+  <img src="images/Learning_curves.png" width="600" alt="Learning Curves">
+  <br>
+  <em>Figure 3: Training and validation loss/accuracy over epochs.</em>
+</p>
+
 
 
 
