@@ -10,15 +10,19 @@ This repository contains a rigorous, master's-level experimental design and in-d
 The goal is not merely to achieve high accuracy, but to critically analyze model behavior, bias-variance trade-offs, decision boundaries, and robustness to noise.
 
 ## 🗄️ Datasets Analyzed
-1. **High-Dimensional Data:** [Human Activity Recognition (HAR)]([https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones](https://www.kaggle.com/datasets/uciml/human-activity-recognition-with-smartphones))
-   - *Challenge:* 561 features representing sensor signals.
-   - *Focus:* Curse of dimensionality, impact of PCA on training time and accuracy.
-2. **Noisy & Low-Feature Data:** [Pima Indians Diabetes]([https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database))
-   - *Challenge:* 8 features with significant class overlap and biological noise.
-   - *Focus:* Preprocessing (imputing missing values/zeros), standardization sensitivity, and bias-variance analysis.
-3. **Non-Linear Decision Boundary:** [Bank Note Authentication]([https://archive.ics.uci.edu/ml/datasets/banknote+authentication](https://www.kaggle.com/datasets/shantanuss/banknote-authentication-uci))
-   - *Challenge:* Complex, non-separable classes in a 2D feature space (using Variance and Skewness).
-   - *Focus:* 2D decision boundary visualization, Linear vs. Non-linear models (e.g., SVM kernels).
+
+1. **High-Dimensional Data:** [Human Activity Recognition (HAR)](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones)
+   - **Challenge:** 561 features representing sensor signals.
+   - **Focus:** Curse of dimensionality, impact of PCA on training time and accuracy.
+
+2. **Noisy & Low-Feature Data:** [Pima Indians Diabetes](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
+   - **Challenge:** 8 features with significant class overlap and biological noise.
+   - **Focus:** Preprocessing (imputing missing values/zeros), standardization sensitivity, and bias-variance analysis.
+
+3. **Non-Linear Decision Boundary:** [Bank Note Authentication](https://archive.ics.uci.edu/ml/datasets/banknote+authentication)
+   - **Challenge:** Complex, non-separable classes in a 2D feature space (using Variance and Skewness).
+   - **Focus:** 2D decision boundary visualization, Linear vs. Non-linear models (e.g., SVM kernels).
+
 
 ## 🤖 Models Implemented & Tuned
 - **k-Nearest Neighbors (kNN)** (Comparing multiple distance metrics)
